@@ -1,0 +1,15 @@
+main .flex-main {
+  flex: 3;
+}
+main aside {
+  flex: 1;
+  background-color: tan;
+}
+.flex-main section {
+  background-color: lightblue;
+  padding: 30px 0;
+}
+.flex-main article {
+  background-color: brown;
+  padding: 60px 0;
+}

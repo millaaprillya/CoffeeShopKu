@@ -1,0 +1,69 @@
+.content-1,
+.content-2 {
+  background-color: #f8f8f8;
+}
+.detail-product {
+  margin: 100px;
+  background-color: white;
+  height: 70%;
+  border-radius: 5%;
+}
+.content1-p {
+  margin: 50px;
+}
+.content2-p {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 50px;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 138.84%;
+  /* or 35px */
+  
+  letter-spacing: 0.03em;
+  
+  color: #6A4029;
+}
+.content2-p1{
+  font-family: Poppins;
+  color: #6A4029;
+  text-align: center;
+}
+.content2-p2{
+  font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+
+letter-spacing: 0.03em;
+}
+.content2-p1 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.content2-p2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 10%;
+  text-align: center;
+}
+.img-product {
+  height: 70%;
+  margin-left: 30%;
+}
+.title-detail {
+  text-align: center;
+}
+.buttom,
+.buttom-1 {
+  padding-top: 2%;
+  text-align: center;
+}
