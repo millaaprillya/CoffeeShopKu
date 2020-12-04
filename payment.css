@@ -1,0 +1,11 @@
+.box1 {
+  position: absolute;
+  width: 454.86px;
+  height: 198.98px;
+  left: 821px;
+  top: 383.02px;
+
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}

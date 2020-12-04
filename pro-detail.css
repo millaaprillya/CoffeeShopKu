@@ -11,6 +11,7 @@
 .content1-p {
   margin: 50px;
 }
+
 .content2-p {
   margin-left: 50px;
   margin-right: 50px;
@@ -20,35 +21,32 @@
   font-size: 25px;
   line-height: 138.84%;
   /* or 35px */
-  
+
   letter-spacing: 0.03em;
-  
-  color: #6A4029;
+
+  color: #6a4029;
 }
-.content2-p1{
+.content2-p1 {
   font-family: Poppins;
-  color: #6A4029;
+  color: #6a4029;
   text-align: center;
 }
-.content2-p2{
+.content2-p2 {
   font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
 
-
-color: #000000;
+  color: #000000;
 }
 
-
-letter-spacing: 0.03em;
-}
 .content2-p1 {
   margin-left: 50px;
   margin-right: 50px;
 }
+
 .content2-p2 {
   margin-left: 50px;
   margin-right: 50px;
@@ -62,8 +60,84 @@ letter-spacing: 0.03em;
 .title-detail {
   text-align: center;
 }
-.buttom,
-.buttom-1 {
+.add-cart,
+.add-cart2 {
   padding-top: 2%;
   text-align: center;
+  width: 30%;
+  background-color: antiquewhite;
+}
+
+.buttom {
+  margin: 50px;
+}
+.buttom1,
+.buttom2 {
+  padding-top: 10px;
+}
+.method-choice {
+  display: flex;
+  justify-content: space-evenly;
+}
+.method-buttom {
+  background-color: #ffba33;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  left: 807px;
+  top: 772px;
+  color: #000000;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+}
+.delivery-method {
+  display: flex;
+}
+
+/* Payment-delivery */
+.bg {
+  background-image: url("bg/bg-payment.png");
+}
+.title-1 {
+  margin-top: 10%;
+  margin-left: 10%;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+}
+.box-order-sumary {
+  margin-top: 6%;
+  margin-left: 20%;
+  background-color: white;
+  width: 487px;
+  height: 737px;
+  left: 153px;
+  top: 332px;
+  border-radius: 20px;
+}
+.title-order-p {
+  position: absolute;
+  height: 20px;
+  left: 251px;
+  margin-top: 5%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 52px;
+  /* identical to box height */
+
+  color: #362115;
+}
+.product-order {
+  justify-content: space-between;
 }

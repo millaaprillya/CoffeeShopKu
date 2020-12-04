@@ -9,9 +9,13 @@ div.container-header {
   display: inline-block;
   padding-right: 0.9rem;
   padding-left: 0.9rem;
+  font-size: larger;
 }
 .profile {
   margin-left: 30px;
+}
+.card-body:hover {
+  background-color: #ffe6b3;
 }
 .header-menu-product li {
   display: inline-block;
@@ -35,7 +39,7 @@ div.logo::before {
 }
 .logo {
   font-family: "Kalam", cursive;
-  font-size: 150%;
+  font-size: 160%;
 }
 .card-promo {
   padding-top: 10%;
