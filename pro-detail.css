@@ -2,14 +2,15 @@
 .content-2 {
   background-color: #efecec;
   padding-right: 0;
-  height: 150%;
+  height: 200%;
 }
 .detail-product {
   margin-top: 10%;
   margin-left: 25%;
   margin-right: 25%;
   background-color: white;
-  height: 200%;
+  height: 250%;
+  width: 60%;
   border-radius: 5%;
 }
 .content1-p {
@@ -61,8 +62,9 @@
   text-align: center;
 }
 .img-product {
+  display: flex;
   height: 70%;
-  margin-left: 30%;
+  justify-content: center;
 }
 .title-detail {
   text-align: center;
@@ -178,4 +180,38 @@
   display: flex;
   justify-content: space-evenly;
   height: 50%;
+}
+.method-choice-2 {
+  background-color: #efecec;
+  justify-content: center;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 50%;
+}
+.title-product-1 {
+  margin-top: 5%;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+.buttom-title-p,
+.buttom-title-p2 {
+  display: flex;
+  margin-bottom: 3%;
+  justify-content: center;
+}
+.buttom-title-p2 {
+  padding-bottom: 3%;
+}
+.b-1,
+.b-2 {
+  height: 100%;
+  width: 50%;
 }
