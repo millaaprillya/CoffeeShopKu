@@ -11,11 +11,17 @@ div.container-header {
   padding-left: 0.9rem;
   font-size: larger;
 }
+.header-menu li:hover {
+  background-color: #6a4029;
+}
 .profile {
   margin-left: 30px;
 }
-.card-body:hover {
-  background-color: #ffe6b3;
+/* .card-body:hover {
+  background-color: brown;
+} */
+.card-title:hover {
+  background-color: #6a4029;
 }
 .header-menu-product li {
   display: inline-block;
