@@ -26,67 +26,109 @@
   </head>
   <body>
     <!-- Header -->
-    <div class="container-header">
-      <header class="header">
-        <div class="d-flex justify-content-around">
-          <!-- logo -->
-          <div class="logo"><img src="asset/logo.png" />Coffee Shop</div>
-          <div>
-            <ul class="header-menu">
-              <li>Home</li>
-              <li>Product</li>
-              <li>Your Cart</li>
-              <li>History</li>
-            </ul>
-            <div></div>
+    <div class="container-fluid">
+      <div class="container-header">
+        <header class="header">
+          <div class="d-flex justify-content-around">
+            <!-- logo -->
+            <div class="logo"><img src="asset/logo.png" />Coffee Shop</div>
+            <div>
+              <ul class="header-menu">
+                <li>Home</li>
+                <li>Product</li>
+                <li>Your Cart</li>
+                <li>History</li>
+              </ul>
+              <div></div>
+            </div>
+            <!-- Search -->
+            <div>
+              <form
+                class="form-inline d-flex justify-content-center md-form form-sm mt-0"
+              >
+                <input
+                  class="form-control form-control-sm ml-3 w-75"
+                  type="text"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+              <!-- Profile -->
+            </div>
+            <div>
+              <i class="fa fa-commenting-o" style="font-size: 30px"></i>
+              <i class="profile"
+                ><img
+                  src="asset/nav/user.png"
+                  class="rounded-circle"
+                  width="50"
+                  height="50"
+              /></i>
+            </div>
           </div>
-          <!-- Search -->
-          <div>
-            <form
-              class="form-inline d-flex justify-content-center md-form form-sm mt-0"
-            >
-              <input
-                class="form-control form-control-sm ml-3 w-75"
-                type="text"
-                placeholder="Search"
-                aria-label="Search"
-              />
-            </form>
-            <!-- Profile -->
+        </header>
+        <!-- header-end -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <main class="bg">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="title-1">
+              <p>Checkout your item now!</p>
+            </div>
+            <div class="box-order-sumary">
+              <!-- <p class="title-order-p">Order Summary</p> -->
+              <div class="product-order">
+                <div><img src="" alt="" /></div>
+                <div>Keterangan</div>
+                <div>Harga</div>
+              </div>
+            </div>
           </div>
-          <div>
-            <i class="fa fa-commenting-o" style="font-size: 30px"></i>
-            <i class="profile"
-              ><img
-                src="asset/nav/user.png"
-                class="rounded-circle"
-                width="50"
-                height="50"
-            /></i>
+          <div class="col-lg-6">
+            <div class="box1"></div>
           </div>
         </div>
-      </header>
-      <!-- header-end -->
+      </main>
     </div>
-    <main class="bg">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="title-1">
-            <p>Checkout your item now!</p>
+    <div class="container-fluid">
+      <footer>
+        <div class="row">
+          <div class="one col-lg-6">
+            <div class="info-1">
+              <div class="logo">
+                <img src="asset/logo.png" />Coffee Shop
+                <ul>
+                  <p class="coffee">
+                    Coffee Shop is a store that sells some good meals, and
+                    especially coffee. We provide high quality beans
+                  </p>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="box-order-sumary">
-            <!-- <p class="title-order-p">Order Summary</p> -->
-            <div class="product-order">
-              <div><img src="" alt="" /></div>
-              <div>Keterangan</div>
-              <div>Harga</div>
+          <div class="two col-lg-3">
+            <div class="info-1">
+              Product
+              <li>Dashboard</li>
+              <li>Pricing</li>
+              <li>Location</li>
+              <li>Countries</li>
+              <li>Blog</li>
+            </div>
+          </div>
+          <div class="theree col-lg-3">
+            <div class="info-1">
+              <li>Coffee Shop</li>
+              <li>Faq</li>
+              <li>About Us</li>
+              <li>Privacy policy</li>
+              <li>Terms of Service</li>
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="box1"></div>
-        </div>
-      </div>
-    </main>
+      </footer>
+    </div>
   </body>
 </html>
