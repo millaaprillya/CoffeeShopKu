@@ -185,10 +185,10 @@
   background-color: #efecec;
   justify-content: center;
   margin-top: 5%;
-  padding-bottom: 44%;
+  padding-bottom: 31%;
   display: flex;
   justify-content: space-evenly;
-  height: 50%;
+  height: 30%;
 }
 .title-product-1 {
   margin-top: 5%;
@@ -235,7 +235,7 @@
   box-sizing: border-box;
   border-radius: 10px;
   width: 300px;
-  height: 30px;
+  height: 70px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
