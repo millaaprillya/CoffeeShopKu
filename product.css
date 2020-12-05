@@ -167,7 +167,6 @@ div.logo::before {
 .one,
 .two,
 .theree {
-  border-top: 0.5px solid #9f9f9f;
   background: #f8f8f8;
 }
 /* .selected {
