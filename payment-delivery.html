@@ -9,8 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Product</title>
     <link rel="stylesheet" href="product.css" />
-    <link rel="stylesheet" href="pro-detail.css" />
-    <link rel="stylesheet" href="pro-detail.css" />
+    <link rel="stylesheet" href="payment.css" />
     <!-- <--Bootraps-->
     <link
       rel="stylesheet"
@@ -67,6 +66,7 @@
             </div>
           </div>
         </header>
+
         <!-- header-end -->
       </div>
     </div>
@@ -78,16 +78,103 @@
               <p>Checkout your item now!</p>
             </div>
             <div class="box-order-sumary">
-              <!-- <p class="title-order-p">Order Summary</p> -->
-              <div class="product-order">
-                <div><img src="" alt="" /></div>
-                <div>Keterangan</div>
-                <div>Harga</div>
+              <div class="orderSumary text-center">
+                <p>Order Summary</p>
+              </div>
+              <div class="container m-4">
+                <div class="row">
+                  <div class="img-payment col-sm">
+                    <img src="asset/payment-order/1.png" alt="" />
+                  </div>
+                  <div class="col-sm"><p>Hazelnut Latte x 1 Regular</p></div>
+                  <div class="col-sm">One of three columns</div>
+                </div>
+              </div>
+              <div class="container m-4">
+                <div class="row">
+                  <div class="col-sm">
+                    <img src="asset/payment-order/2.png" alt="" />
+                  </div>
+                  <div class="col-sm"><p>Chicken Fire Wings x 2</p></div>
+                  <div class="col-sm">One of three columns</div>
+                </div>
+              </div>
+              <div class="container m-4">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="subtotal-tax">SUBTOTAL TAX & FEES SHIPPING</p>
+                  </div>
+                  <div class="col-sm">
+                    <p class="idr">IDR 120.000 IDR 20.000 IDR 10.000</p>
+                  </div>
+                </div>
+              </div>
+              <div class="container m-4">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="subtotal-tax-total">TOTAL</p>
+                  </div>
+                  <div class="col-sm">
+                    <p class="subtotal-tax-total">IDR 150.000</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="box1"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <p class="box-edit">Address details</p>
+                </div>
+                <div class="col-sm"><p class="box-edit">edit</p></div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="box-addres">
+                  <p>Delivery to Iskandar Street</p>
+                  <p>
+                    Km 5 refinery road oppsite re public road, effurun, Jakarta
+                  </p>
+                  <p>+62 81348287878</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <p class="box-edit2 mt-5">Payment method</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="box-addres">
+                  <input type="radio" id="Card" name="Card" value="Card " />
+                  <label for="Card">Card</label><br />
+                  <input
+                    type="radio"
+                    id="bank-account"
+                    name="bank-account"
+                    value="bank-account"
+                  />
+                  <label for="card">Bank Acount</label><br />
+                  <input
+                    type="radio"
+                    id="cash-on-delivery"
+                    name="cash-on-delivery"
+                    value="cash-on-delivery"
+                  />
+                  <label for="cash-on-delivery">Cash On delivery</label>
+                </div>
+                <div class="container">
+                  <div class="button-delivery mt-4">
+                    <button class="button-delivery">Confirm and Pay</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>

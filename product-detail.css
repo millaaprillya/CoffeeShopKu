@@ -1,0 +1,143 @@
+.body-bg {
+  background-color: #efecec;
+}
+.main {
+  width: auto;
+  background-color: grey;
+}
+
+.menu-detail {
+  height: 70%;
+  width: 70%;
+  background-color: white;
+  padding: 2% 40px 0% 40px;
+  justify-content: center;
+  border-radius: 5%;
+}
+
+.content1-p {
+  padding-top: 30px;
+}
+
+.image-view {
+  padding: 0% 80px 0% 80px;
+}
+
+.detail-text {
+  margin: 5%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 138.84%;
+  /* or 35px */
+
+  letter-spacing: 0.02em;
+
+  color: #6a4029;
+}
+
+.price-detail {
+  width: auto;
+  height: 20%;
+  font-family: serif;
+}
+
+.menu-name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.button-order {
+  padding: 20px;
+}
+.add-cart,
+.ask-staff {
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  height: 70px;
+}
+
+.add-cart {
+  background-color: #6a4029;
+  color: #fff;
+  width: 50%;
+}
+
+.ask-staff {
+  background-color: #ffba33;
+  color: #fff;
+  width: 50%;
+}
+
+.product-size {
+  padding: 40px;
+  width: auto;
+  height: 20%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.button-size {
+  flex: 100ch;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.size {
+  background: #ffba33;
+  height: 150%;
+  width: 20%;
+  border-radius: 100%;
+  text-shadow: 0;
+  font-weight: bold;
+}
+
+.container-choice-1 {
+  margin-top: 15%;
+}
+
+.method-choice-1 {
+  justify-content: space-evenly;
+}
+.method-buttom-1 {
+  margin: 2%;
+  background: #f4f4f8;
+  border: 10px;
+  border-radius: 10px;
+}
+
+.box1-2-3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  height: 300%;
+}
+
+.box-1 {
+  background-color: white;
+}
+
+.checkout-box {
+  justify-content: space-evenly;
+  height: 50%;
+}
+
+.img-checkout {
+  position: absolute;
+  left: -10.25%;
+  right: -10.39%;
+  top: -17.5%;
+  bottom: -7.29%;
+}
