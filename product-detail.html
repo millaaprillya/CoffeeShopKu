@@ -30,12 +30,12 @@
         <header class="header">
           <div class="d-flex justify-content-around">
             <!-- logo -->
-            <div class="logo"><img src="asset/logo.png" />Coffee Shop</div>
+            <div class="logo"><img src="asset/logo.png" onclick="location.href='user-profile.html';"/>Coffee Shop</div>
             <div>
               <ul class="header-menu">
-                <li>Home</li>
-                <li>Product</li>
-                <li>Your Cart</li>
+                <li onclick="location.href='register.html';">Home</li>
+                <li onclick="location.href='product-detail.html';">Product</li>
+                <li onclick="location.href='payment-delivery.html';">Your Cart</li>
                 <li>History</li>
               </ul>
               <div></div>
@@ -66,6 +66,7 @@
             </div>
           </div>
         </header>
+
         <!-- header-end -->
       </div>
     </div>
@@ -110,14 +111,14 @@
                   </div>
                   <div class="container-choice-1">
                     <div class="title-method mb-4">Choose Delivery Methods</div>
-                     <div class="method-choice-1">
+                     <div class="method-choice-1 mt-3 mb-3">
                       <button class="method-buttom-1">Dine in</button>
                       <button class="method-buttom-1">Door Delivery</button>
                       <button class="method-buttom-1">XL</button>
                       </div>
                       <div class="method-choice-2">
-                        <label for="name">First Name</label>
-                        <input type="input" id="name" name="name" value="name" />
+                        <label for="name" class="First-name">First Name</label>
+                        <input type="input" id="name" class="name" />
                       </div>
                     </div>
                 </div>
@@ -128,14 +129,21 @@
                 <div class="col-sm">
                 <img src="asset/payment-order/1.png" alt="">
                 </div>
-                <div class="col-sm">
-                 <p>Cold Brew</p>
-                 <p></p>
+                <div class="title-product-box col-sm">
+                 <p>COLD BROWN</p>
+                 <p>
+                  x1 (Large)
+                  x1 (Regular)</p>
                 </div>
-                <div class="col-sm">
-                  IDR. 30.000
+                <div class="number">
+                  <span class="minus">-</span>
+                  <input type="text" value="1"/>
+                  <span class="plus">+</span>
                 </div>
               </div>
+            </div>
+            <div class="col-sm ml-5 mt-5">
+              <button class="buttom-checkout ">CHEKOUT</button>
             </div>
           </div>
         </div>
@@ -181,4 +189,22 @@
       </footer>
     </div>
   </body>
+  <script>
+    $(document).ready(function() {
+			$('.minus').click(function () {
+				var $input = $(this).parent().find('input');
+				var count = parseInt($input.val()) - 1;
+				count = count < 1 ? 1 : count;
+				$input.val(count);
+				$input.change();
+				return false;
+			});
+			$('.plus').click(function () {
+				var $input = $(this).parent().find('input');
+				$input.val(parseInt($input.val()) + 1);
+				$input.change();
+				return false;
+			});
+		});
+  </script>
 </html>

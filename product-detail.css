@@ -76,7 +76,7 @@
 }
 
 .product-size {
-  padding: 40px;
+  padding: 5px;
   width: auto;
   height: 20%;
   font-family: Poppins;
@@ -90,7 +90,8 @@
 .button-size {
   flex: 100ch;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .size {
@@ -103,7 +104,7 @@
 }
 
 .container-choice-1 {
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .method-choice-1 {
@@ -154,4 +155,57 @@
   width: 50%;
   background-color: white;
   border-radius: 2%;
+}
+
+span {
+  cursor: pointer;
+}
+.minus,
+.plus {
+  width: 50px;
+  height: 50px;
+  background: #ffba33;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+input {
+  height: 34px;
+  width: 70px;
+  text-align: center;
+  font-size: 50px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title-method {
+  font-size: 20px;
+}
+
+.First-name {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: unset;
+  font-size: medium;
+}
+
+.name {
+  width: 80%;
+  border: 0;
+  border-bottom: #6a4029;
+}
+.title-product-box {
+  font-size: medium;
+  font-weight: bold;
+}
+.buttom-checkout {
+  text-align: center;
+  background-color: #ffba33;
+  font-weight: bolder;
+  height: 50%;
+  width: 70%;
+  border-radius: 8%;
 }

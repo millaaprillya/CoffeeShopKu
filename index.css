@@ -1,0 +1,35 @@
+.body-bg-1 {
+  background-image: url("bg/bg-login.png");
+}
+.input {
+  width: 100%;
+}
+.add-login,
+.ask-register,
+.add-set {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 100%;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  height: 70px;
+}
+
+.add-login,
+.add-set {
+  background-color: #ffba33;
+  color: #fff;
+  width: 100%;
+}
+
+.ask-register {
+  background-color: grey;
+  color: brown;
+  width: 100%;
+}
+
+.contact {
+  font-size: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
