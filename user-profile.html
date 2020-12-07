@@ -30,12 +30,12 @@
         <header class="header">
           <div class="d-flex justify-content-around">
             <!-- logo -->
-            <div class="logo"><img src="asset/logo.png" />Coffee Shop</div>
+            <div class="logo"><img src="asset/logo.png" onclick="location.href='user-profile.html';"/>Coffee Shop</div>
             <div>
               <ul class="header-menu">
-                <li>Home</li>
-                <li>Product</li>
-                <li>Your Cart</li>
+                <li onclick="location.href='register.html';">Home</li>
+                <li onclick="location.href='product-detail.html';">Product</li>
+                <li onclick="location.href='payment-delivery.html';">Your Cart</li>
                 <li>History</li>
               </ul>
               <div></div>
@@ -62,11 +62,11 @@
                   class="rounded-circle"
                   width="50"
                   height="50"
-                />
-              </i>
+              /></i>
             </div>
           </div>
         </header>
+
         <!-- header-end -->
       </div>
     </div>
@@ -80,8 +80,49 @@
             <div class="user-profile">
               <div class="container-1 col-lg-12">
                 <div class="row">
-                  <div class="col-lg-3">blablablab</div>
-                  <div class="col-lg-9">kotak input</div>
+                  <div class="colum-user-1 col-lg-3">
+                    <div class="image-view-user">
+                      <img src="asset/user/user.png" class="rounded-circle" />
+                    </div>
+                    <p class="name-user">Zulaikha</p>
+                    <p class="name-user-email">Zulaikha zulaikha17@gmail.com</p>
+                    <div class="button-set-profile">
+                      <button class="set-photo mt-3">Choose photo</button><br />
+                      <button class="remote-photo mt-3">Remove photo</button
+                      ><br />
+                      <button class="set-password mt-5">Set Password</button>
+                      <p class="title-doyouwanna mt-5">
+                        Do you want to save the change?
+                      </p>
+                      <button class="save-user mt-4">Save Changes</button><br />
+                      <button class="cancel-user mt-3">Cancel</button>
+
+                      <button class="logout mt-3">LOGOUT</button>
+                    </div>
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="container">
+                      <div class="row">
+                        <div class="data-user">
+                          <p class="data-user-title">Contacts</p>
+                          <form m-5>
+                            <label for="fname" class="contact">Email adress:</label><br />
+                            <input type="text"  /><br />
+                            <label for="lname"class="contact" >Delivery adress:</label><br />
+                            <input type="text" /><br /><br />
+
+                            <p class="data-user-title">Details</p>
+                            <label for="fname" class="contact">Display name :</label><br />
+                            <input type="text"  /><br />
+                            <label for="lname"class="contact" >First Name:</label><br />
+                            <input type="text"  /><br /><br />
+                            <label for="lname class="contact"">Last Name:</label><br />
+                            <input type="text"  /><br /><br />
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -89,5 +130,47 @@
         </div>
       </div>
     </main>
+    <!-- main  -->
+
+
+    <!-- footer -->
+    <div class="container-fluid">
+        <footer>
+          <div class="row">
+            <div class="one col-lg-6">
+              <div class="info-1">
+                <div class="logo">
+                  <img src="asset/logo.png" />Coffee Shop
+                  <ul>
+                    <p class="coffee">
+                      Coffee Shop is a store that sells some good meals, and
+                      especially coffee. We provide high quality beans
+                    </p>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="two col-lg-3">
+              <div class="info-1">
+                Product
+                <li>Dashboard</li>
+                <li>Pricing</li>
+                <li>Location</li>
+                <li>Countries</li>
+                <li>Blog</li>
+              </div>
+            </div>
+            <div class="theree col-lg-3">
+              <div class="info-1">
+                <li>Coffee Shop</li>
+                <li>Faq</li>
+                <li>About Us</li>
+                <li>Privacy policy</li>
+                <li>Terms of Service</li>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
   </body>
 </html>

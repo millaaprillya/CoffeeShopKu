@@ -23,18 +23,19 @@
     />
   </head>
   <body>
+   
     <!-- Header -->
     <div class="container-fluid">
       <div class="container-header">
         <header class="header">
           <div class="d-flex justify-content-around">
             <!-- logo -->
-            <div class="logo"><img src="asset/logo.png" />Coffee Shop</div>
+            <div class="logo"><img src="asset/logo.png" onclick="location.href='user-profile.html';"/>Coffee Shop</div>
             <div>
               <ul class="header-menu">
-                <li>Home</li>
-                <li>Product</li>
-                <li>Your Cart</li>
+                <li onclick="location.href='register.html';">Home</li>
+                <li onclick="location.href='product-detail.html';">Product</li>
+                <li onclick="location.href='payment-delivery.html';">Your Cart</li>
                 <li>History</li>
               </ul>
               <div></div>
@@ -61,14 +62,16 @@
                   class="rounded-circle"
                   width="50"
                   height="50"
-                />
-              </i>
+              /></i>
             </div>
           </div>
         </header>
+
         <!-- header-end -->
       </div>
     </div>
+
+    <!-- Main -->
     <div class="container-fluid">
       <div class="container-content">
         <!-- voucher -->
@@ -92,7 +95,8 @@
                 <img src="asset/voucher/voucher4.png" />HAPPY MOTHER’S DAY!
               </div>
               <div class="kotak-3">
-                <img src="asset/voucher/voucher3.png" />HAPPY HALLOWEEN!
+                <img src="asset/voucher/voucher3.png" />
+                HAPPY MOTHER’S DAY!
               </div>
               <div class="kotak-5">Apply Coupon</div>
               <div class="kotak-6">
@@ -309,6 +313,8 @@
         </div>
       </div>
     </div>
+
+
     <div class="container-fluid">
       <footer>
         <div class="row">

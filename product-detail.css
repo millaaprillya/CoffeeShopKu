@@ -141,3 +141,17 @@
   top: -17.5%;
   bottom: -7.29%;
 }
+
+.one {
+  position: relative;
+}
+
+.container-checkbox {
+  margin-left: 20%;
+  padding: 2%;
+  position: relative;
+  height: 50%;
+  width: 50%;
+  background-color: white;
+  border-radius: 2%;
+}
