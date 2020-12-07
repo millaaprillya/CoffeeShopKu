@@ -22,6 +22,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+      #overflowTest {
+        background: white;
+        color: black;
+        padding: 15px;
+        width: 100%;
+        height: 300px;
+        overflow: scroll;
+        border: 1px solid #ccc;
+      }
+    </style>
   </head>
   <body>
     <!-- Header -->
@@ -30,12 +41,19 @@
         <header class="header">
           <div class="d-flex justify-content-around">
             <!-- logo -->
-            <div class="logo"><img src="asset/logo.png" onclick="location.href='user-profile.html';"/>Coffee Shop</div>
+            <div class="logo">
+              <img
+                src="asset/logo.png"
+                onclick="location.href='user-profile.html';"
+              />Coffee Shop
+            </div>
             <div>
               <ul class="header-menu">
-                <li onclick="location.href='register.html';">Home</li>
+                <li onclick="location.href='product2.html';">Home</li>
                 <li onclick="location.href='product-detail.html';">Product</li>
-                <li onclick="location.href='payment-delivery.html';">Your Cart</li>
+                <li onclick="location.href='payment-delivery.html';">
+                  Your Cart
+                </li>
                 <li>History</li>
               </ul>
               <div></div>
@@ -71,7 +89,6 @@
       </div>
     </div>
 
-
     <!-- main -->
     <div class="container-fluid">
       <main class="bg">
@@ -84,24 +101,27 @@
               <div class="orderSumary text-center">
                 <p>Order Summary</p>
               </div>
-              <div class="container m-4">
-                <div class="row">
-                  <div class="img-payment col-sm">
-                    <img src="asset/payment-order/1.png" alt="" />
+              <div class="box-belanja" id="overflowTest">
+                <div class="container m-4">
+                  <div class="row">
+                    <div class="img-payment col-sm">
+                      <img src="asset/payment-order/1.png" alt="" />
+                    </div>
+                    <div class="col-sm"><p>Hazelnut Latte x 1 Regular</p></div>
+                    <div class="col-sm">IDR 24.0</div>
                   </div>
-                  <div class="col-sm"><p>Hazelnut Latte x 1 Regular</p></div>
-                  <div class="col-sm">IDR 24.0</div>
+                </div>
+                <div class="container m-4">
+                  <div class="row">
+                    <div class="col-sm">
+                      <img src="asset/payment-order/2.png" alt="" />
+                    </div>
+                    <div class="col-sm"><p>Chicken Fire Wings x 2</p></div>
+                    <div class="col-sm">IDR 24.0</div>
+                  </div>
                 </div>
               </div>
-              <div class="container m-4">
-                <div class="row">
-                  <div class="col-sm">
-                    <img src="asset/payment-order/2.png" alt="" />
-                  </div>
-                  <div class="col-sm"><p>Chicken Fire Wings x 2</p></div>
-                  <div class="col-sm">IDR 24.0</div>
-                </div>
-              </div>
+
               <div class="container m-4">
                 <div class="row">
                   <div class="col-sm">
@@ -155,6 +175,7 @@
               <div class="row">
                 <div class="box-addres">
                   <input type="radio" id="Card" name="Card" value="Card " />
+                  <img src="asset/.png" alt="" class="bg-1" />
                   <label for="Card">Card</label><br />
                   <input
                     type="radio"
@@ -162,6 +183,7 @@
                     name="bank-account"
                     value="bank-account"
                   />
+                  <img src="asset/Vector.png" alt="" class="bg-1" />
                   <label for="card">Bank Acount</label><br />
                   <input
                     type="radio"
@@ -169,6 +191,7 @@
                     name="cash-on-delivery"
                     value="cash-on-delivery"
                   />
+                  <img src="asset/fast-delivery 3.png" alt="" class="bg-2" />
                   <label for="cash-on-delivery">Cash On delivery</label>
                 </div>
                 <div class="container">
@@ -222,6 +245,5 @@
         </div>
       </footer>
     </div>
-    
   </body>
 </html>
